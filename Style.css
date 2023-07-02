@@ -1,0 +1,121 @@
+/* Universal selector */
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+ /* Fontfamily Link copied from Googlefonts */
+ font-family: 'Montserrat', sans-serif;
+
+ background-color: #121212;
+}
+
+ /* Container */
+
+.container{
+
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    background-color: black;
+   
+}
+
+.main-content{
+flex: 0.8;
+    display: flex;
+    border-radius: 0.5rem;
+    background-color: yellow;
+    overflow-y: auto;
+
+}
+
+ /* Left sidebar */
+.sidebar{
+    flex: 0.25;
+    position: fixed;
+    background-color:#121212;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 196px;
+    padding: 24px;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+
+}
+
+.sidebar .logo  svg{
+
+    width: 130px;
+}
+
+
+.sidebar .navigation ul{
+
+    list-style: none;
+    margin-top: 20px;
+}
+
+
+.sidebar .navigation ul li{
+
+    padding: 10px 0px;
+}
+
+.sidebar .navigation ul li a{
+
+    text-decoration: none;
+    color: #b3b3b3;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.sidebar .navigation ul li a .images ,
+.sidebar .navigation ul li a .images
+.sidebar .navigation ul li a  .images {
+    color: #b3b3b3;
+   
+}
+
+/*Pseudo class for hovering in links and images */
+
+.sidebar .navigation ul li a :hover,
+.sidebar .navigation ul li a :active,
+.sidebar .navigation ul li a :focus
+{
+
+    color: #ffffff;
+}
+
+
+.sidebar .navigation ul li a :hover .images:hover ,
+.sidebar .navigation ul li a :active .images:active ,
+.sidebar .navigation ul li a :focus .images:focus {
+    color:#ffffff;
+   
+}
+
+
+
+
+
+
+
+
+
+
+.musicplayer{
+
+    background-color: yellow;
+    bottom: 0;
+    position: fixed;
+    height: 80px;
+    width: 100;
+    left: 0;
+
+}
