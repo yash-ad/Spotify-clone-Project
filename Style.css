@@ -33,28 +33,92 @@ color: #fff;
    
 }
 
+
+/* Main-Content-Page */
 .main-content{
-    flex: 0.8;
-    display: flex;
+ 
     border-radius: 0.5rem;
     background-color:#121212;
-    overflow-y: auto;
-    margin-left: 16.2%;
-    padding-right: 79%;
+    margin-left: 245px;
+width:100% ;
+    margin-bottom: 42px;
 }
 
-.navbar {
+.topbar {
+
      position: sticky;
      top: 0;
-   
-   
-     justify-content: space-between;
-     align-items: center;
-z-index: 1000;
-    padding:2rem  0rem;
-  
-
+     justify-content: space-between;   /* Horizontally */
+     align-items: center;  /* Vertically center */
+    padding:2.3rem  ;
+    
 }
+
+
+
+
+/*Arrows prev-next */
+
+.topbar .prev-next-arrows img{
+    height: 1.3rem;
+    width: 1.3rem;
+
+    cursor: pointer;
+    
+    font-size: 15px;
+    border: 0px;
+    margin-right: 10px;
+   
+}
+
+ .topbar .navbar{
+
+    display: flex;
+  
+    align-items: center;  /* Vertically center */
+  
+     
+ }
+
+ .topbar  .navbar ul{
+
+    list-style: none; /* To remove bullet points */
+ }
+
+ .topbar .navbar ul li {
+display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+ }
+ .topbar .navbar li .divider{
+
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0px 20px;
+    width: auto;
+ }
+  .topbar .navbar ul li a {
+   color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+ }
+
+ .topbar .navbar button{
+
+    color: #000000;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px  30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+ }
+
+
 
 
 
@@ -70,7 +134,6 @@ z-index: 1000;
     background-color: #121212;
     flex: 0.25;
     position: fixed;
- 
     left: 0;
     top: 0;
     bottom: 0;
@@ -79,6 +142,7 @@ z-index: 1000;
     margin-right: 0.5rem;
     border-radius: 0.5rem;
     margin-top: 8px;
+    margin-bottom: 50px;
 
 }
 
@@ -128,7 +192,7 @@ z-index: 1000;
  display: flex;
  flex-direction: column;
  gap: 1.5rem;
- padding: 1rem 0.5rem;
+ padding: 0rem 0.5rem;
 
  margin-bottom: 0.5rem;
  border-radius: 0.5rem;
@@ -195,6 +259,15 @@ cursor: pointer;
     text-decoration: underline;
    
 }
+
+.navbar ul li a:hover,
+.navbar ul li a:active,
+.navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+
+}
+
 
 
 
