@@ -50,15 +50,14 @@ width:100% ;
      top: 0;
      justify-content: space-between;   /* Horizontally */
      align-items: center;  /* Vertically center */
-    padding:2.3rem  ;
+    padding:2.3rem ;
+    padding-right: 0px;
     
 }
 
 
-
-
+ 
 /*Arrows prev-next */
-
 .topbar .prev-next-arrows img{
     height: 1.3rem;
     width: 1.3rem;
@@ -76,7 +75,7 @@ width:100% ;
     display: flex;
   
     align-items: center;  /* Vertically center */
-    margin-top: -2.5%;
+    margin-top: -4.5%;
     margin-left: 50%;
   
      
@@ -89,22 +88,18 @@ width:100% ;
 
  .topbar .navbar ul li {
     display: inline-block;
-    margin: 0px 15px;
+    margin: 0px 16px;
     width: 70px;
  }
  .topbar .navbar li .divider{
 
     color: #ffffff;
-    font-size: 26px;
+    font-size: 27px;
   margin-left: 50px;
   margin-right: 0px;
     width: auto;
  }
- .topbar .navbar .Account{
-
-    margin-left: -50px;
- }
-
+ 
   .topbar .navbar ul li a {
    color: #b3b3b3;
     text-decoration: none;
@@ -116,19 +111,23 @@ width:100% ;
  .topbar .navbar button{
 
     color: #000000;
-    background-color: #ffffff;
+ 
+    background-color: rgb(36, 36, 36);
     font-size: 15px;
     font-weight: bold;
-    padding: 6px  30px;
+    padding: 0.5rem  0.75rem;
     border: 0px;
     border-radius: 30px;
     cursor: pointer;
+    margin: 25px;
+margin-left: -9%;
+    color:    #b3b3b3;;
+
+ 
 
  }
 
-
-
-
+ 
 
 .flex-top{
 
@@ -136,6 +135,8 @@ width:100% ;
     justify-content: space-between;
     align-items: center;
 }
+
+
 
  /* Left sidebar */
 .sidebar{
@@ -275,6 +276,14 @@ cursor: pointer;
     font-size: 15px;
 
 }
+.topbar .navbar button:hover,
+ .topbar .navbar button:active,
+ .topbar .navbar button:focus{
+    color:#ffffff;
+
+   
+ }
+
 
 
 
