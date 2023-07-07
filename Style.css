@@ -36,12 +36,14 @@ color: #fff;
 
 /* Main-Content-Page */
 .main-content{
- 
+
     border-radius: 0.5rem;
     background-color:#121212;
     margin-left: 245px;
 width:100% ;
-    margin-bottom: 42px;
+padding-bottom: 5rem;
+
+    
 }
 
 .topbar {
@@ -55,9 +57,6 @@ width:100% ;
     
 }
 
-
- 
-/*Arrows prev-next */
 .topbar .prev-next-arrows img{
     height: 1.3rem;
     width: 1.3rem;
@@ -75,8 +74,8 @@ width:100% ;
     display: flex;
   
     align-items: center;  /* Vertically center */
-    margin-top: -4.5%;
-    margin-left: 50%;
+    margin-top: -5%;
+    margin-left: 49%;
   
      
  }
@@ -127,6 +126,77 @@ margin-left: -9%;
 
  }
 
+  .Spotify-Playlist{
+
+
+    padding: 0.70rem;
+    margin: 0rem 0.60rem ;
+    margin-top: 1%;
+ }
+
+ .cards-container{
+
+    display: flex;
+    flex-wrap: wrap; /*The flex-wrap property specifies whether the flexible items should wrap or not.*/
+    gap: 0.5rem;
+ }
+
+ .card{
+
+    width: 190px;
+    background-color: rgb(36, 36, 36); ;
+    
+    padding: 0.70rem;
+    border-radius: 0.5rem;
+    height: fit-content;
+    margin: 0rem 0.75rem;
+ }
+
+ .card-img{
+
+    width: 100%;
+    border-radius: 0.35rem;
+ }
+ .card-name{
+
+    margin: 0.25rem 0;
+ }
+
+ .card-description{
+
+    margin: 0;
+    font-size: 0.8rem;
+    opacity: 0.5;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 .flex-top{
@@ -151,7 +221,7 @@ margin-left: -9%;
     margin-right: 0.5rem;
     border-radius: 0.5rem;
     margin-top: 8px;
-    margin-bottom: 50px;
+
 
 }
 
@@ -237,6 +307,27 @@ cursor: pointer;
  
  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
