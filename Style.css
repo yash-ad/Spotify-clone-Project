@@ -27,9 +27,9 @@ color: #fff;
 
     display: flex;
     flex: 1;
-    
     background-color:#000;
     padding: 0.5rem;
+    overflow: hidden;
    
 }
 
@@ -42,6 +42,7 @@ color: #fff;
     margin-left: 245px;
 width:100% ;
 padding-bottom: 5rem;
+overflow-y: auto;
 
     
 }
@@ -171,33 +172,6 @@ margin-left: -9%;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
 
 .flex-top{
 
@@ -385,7 +359,8 @@ cursor: pointer;
 .sidebar .policies{
 
     position: absolute;
-    bottom: 40px;
+    bottom: 85px;
+  
 }
 
 
@@ -394,7 +369,8 @@ cursor: pointer;
 }
 
 .sidebar .policies ul li {
-padding-bottom: 5px;
+padding-bottom: 0.1px;
+margin-left: -6px;
 }
 
 .sidebar .policies ul li a{
@@ -405,6 +381,60 @@ padding-bottom: 5px;
     font-size: 10px;
 }
 
+/*<!--Bottom music player-->*/
+
+.Player{
+
+   position: fixed; /*Position should be fixed */
+   bottom: 0; 
+   left: 0; 
+     /*Bottom position because the music player is located at the bottom of the page */
+   height: 80px;
+   width: 100vw;
+   display: flex;
+   justify-content: space-between;
+   
+   align-items: center;
+   background-color:black;
+
+ 
+ }
+ 
+
+
+ .volume-controls{
+display: flex;
+justify-content: flex-end;
+    width: 25vw;  /*Because entire 25 of viewport width whole screen */
+ }
+
+ .player-center{
+    display: flex;
+    width: 50vw; /*Because entire 50 of viewport width whole screen */
+    justify-content: center;
+   
+ }
+
+ .player-control{
+    display: flex;
+    align-items: center;
+    
+ }
+
+ .player-timeline{
+    display: flex;
+    align-items: center;
+
+
+
+ }
+
+ .timeline-slider{
+
+    margin: 0 10px;
+    width: 40vw;
+
+ }
 
 
 
