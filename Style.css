@@ -46,15 +46,18 @@ overflow-y: auto;
 
     
 }
-.album-flex {
-    margin-bottom: 1rem !important;
-  }
-  
-  .albums {
+
+.albums {
     margin-top: 2rem;
-    margin-left: -5%;
+
+    
+}
+
+.album-flex {
+    margin-bottom: 1.9rem  !important;
+    margin-left: -320%;
+
   }
-  
   .album-cover {
     height: 3rem !important;
     width: 3rem !important;
@@ -69,8 +72,8 @@ overflow-y: auto;
   
   .album-name {
     color: white;
-    margin-bottom: 0.30rem !important;
-    font-size: 1rem !important;
+    margin-bottom: 1rem ;
+    font-size: 0.5rem ;
   }
 
 .topbar {
@@ -136,14 +139,14 @@ overflow-y: auto;
 
  .topbar .navbar button{
 
-    color: #000000;
+
  
     background-color: rgb(36, 36, 36);
     font-size: 15px;
     font-weight: bold;
     padding: 0.5rem  0.75rem;
     border: 0px;
-    border-radius: 30px;
+    border-radius: 35px;
     cursor: pointer;
     margin: 25px;
 margin-left: -9%;
@@ -371,10 +374,30 @@ cursor: pointer;
  .topbar .navbar button:active,
  .topbar .navbar button:focus{
     color:#ffffff;
-
-   
+     
  }
 
+ .cards-container .card .play:hover img{
+
+    opacity: 1;
+    transform: translateX(-10);
+ }
+
+ .cards-container .card .play{
+
+    position: relative;
+ }
+
+ .cards-container .card .play img{
+
+    position:absolute;
+    right: 1px;
+    top: -80.5px;
+  padding: 18px;
+border-radius: 100%;
+opacity: 0;
+transition:all ease 0.4s;
+ }
 
 
 
@@ -431,12 +454,12 @@ margin-left: -6px;
  .volume-controls{
 display: flex;
 justify-content: flex-end;
-   margin-right: 2rem; /*Because entire 25 of viewport width whole screen */
+   margin-right: 2rem; 
  }
 
  .player-center{
     display: flex;
-    width: 50vw; /*Because entire 50 of viewport width whole screen */
+    width: 100vw; /*Because entire 50 of viewport width whole screen */
     justify-content: center;
    
  }
@@ -444,6 +467,8 @@ justify-content: flex-end;
  .player-control{
     display: flex;
     align-items: center;
+    
+    
 
     
  }
@@ -451,6 +476,8 @@ justify-content: flex-end;
  .player-timeline{
     display: flex;
     align-items: center;
+   
+   
    
 
 
