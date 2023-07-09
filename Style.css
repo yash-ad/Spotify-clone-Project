@@ -46,6 +46,32 @@ overflow-y: auto;
 
     
 }
+.album-flex {
+    margin-bottom: 1rem !important;
+  }
+  
+  .albums {
+    margin-top: 2rem;
+    margin-left: -5%;
+  }
+  
+  .album-cover {
+    height: 3rem !important;
+    width: 3rem !important;
+    border-radius: 0.2rem;
+  }
+  
+  .col-flex p {
+    margin: 0;
+    font-weight: normal;
+    font-size: 0.5rem;
+  }
+  
+  .album-name {
+    color: white;
+    margin-bottom: 0.30rem !important;
+    font-size: 1rem !important;
+  }
 
 .topbar {
 
@@ -405,7 +431,7 @@ margin-left: -6px;
  .volume-controls{
 display: flex;
 justify-content: flex-end;
-    width: 25vw;  /*Because entire 25 of viewport width whole screen */
+   margin-right: 2rem; /*Because entire 25 of viewport width whole screen */
  }
 
  .player-center{
@@ -418,12 +444,14 @@ justify-content: flex-end;
  .player-control{
     display: flex;
     align-items: center;
+
     
  }
 
  .player-timeline{
     display: flex;
     align-items: center;
+   
 
 
 
@@ -435,6 +463,52 @@ justify-content: flex-end;
     width: 40vw;
 
  }
+ 
+ .volume-slider {
+    width: 100px;
+    height: 4px;
+    margin-top: 4%;
+ 
+  }
+  
+  .timeline-slider:hover,
+  .volume-slider:hover {
+    background-color: #1bd760;
+  }
+
+  /* The CSS -webkit-appearance property enables web authors to change the appearance of HTML elements to resemble native User Interface (UI) controls. */
+  .timeline-slider,
+  .volume-slider {
+    -webkit-appearance: none;
+  }
+  
+  .timeline-slider::-webkit-slider-runnable-track,
+  .volume-slider::-webkit-slider-runnable-track {
+    height: 4px;
+    background: #ddd;
+    border: none;
+    border-radius: 100px;
+  }
+  
+  .timeline-slider::-webkit-slider-thumb,
+  .volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #1bd760;
+    margin-top: -6px;
+  }
+  
+  .timeline-slider:focus,
+  .volume-slider:focus {
+    outline: none;
+  }
+  
+  .timeline-slider:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+  }
 
 
 
