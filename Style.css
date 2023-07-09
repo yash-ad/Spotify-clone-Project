@@ -377,26 +377,51 @@ cursor: pointer;
      
  }
 
+
+ .play {
+
+    margin-right: -2rem;
+    
+
+ }
+
  .cards-container .card .play:hover img{
 
     opacity: 1;
-    transform: translateX(-10);
+    transform: translateX(-20);
+    visibility: visible !important;
+    cursor: pointer;
+   
+ }
+ .cards-container .card:hover{
+    background-color: rgb(49, 49, 49);
+    cursor: pointer;
+
  }
 
  .cards-container .card .play{
 
     position: relative;
+
  }
 
  .cards-container .card .play img{
 
     position:absolute;
-    right: 1px;
-    top: -80.5px;
+    right: 5px;
+    top: -90px;
   padding: 18px;
 border-radius: 100%;
 opacity: 0;
 transition:all ease 0.4s;
+cursor: pointer;
+
+
+ }
+
+ .play{
+
+
  }
 
 
