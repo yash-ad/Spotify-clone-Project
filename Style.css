@@ -199,9 +199,6 @@ margin-left: -9%;
     opacity: 0.5;
  }
 
-
-
-
 .flex-top{
 
     display: flex;
@@ -347,6 +344,7 @@ cursor: pointer;
     font-size: 15px;
 
 }
+
 .topbar .navbar button:hover,
  .topbar .navbar button:active,
  .topbar .navbar button:focus{
@@ -452,8 +450,6 @@ margin-left: -6px;
  
  }
  
-
-
  .volume-controls{
 display: flex;
 justify-content: flex-end;
@@ -506,6 +502,7 @@ justify-content: flex-end;
     background-color: #1bd760;
   }
 
+  
   /* The CSS -webkit-appearance property enables web authors to change the appearance of HTML elements to resemble native User Interface (UI) controls. */
   .timeline-slider,
   .volume-slider {
