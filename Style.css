@@ -311,29 +311,6 @@ cursor: pointer;
  
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Pseudo classes */
 .Link-flex:hover{
  opacity: 1;
@@ -378,6 +355,12 @@ cursor: pointer;
  }
 
 
+
+
+
+
+/*<!--Play button on cards -->*/
+
  .play {
 
     margin-right: -2rem;
@@ -419,12 +402,7 @@ cursor: pointer;
 
  }
 
- .play{
-
-
- }
-
-
+ 
 
 
 
