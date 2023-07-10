@@ -6,11 +6,12 @@
 }
 
 body,
-html{
+html
+{
  /* Fontfamily Link copied from Googlefonts */
  font-family: 'Montserrat', sans-serif;
  height: 100%;
-color: #fff;
+ color: #fff;
  background-color: #121212;
 
  display: flex;
@@ -465,6 +466,7 @@ justify-content: flex-end;
     display: flex;
     width: 100vw; /*Because entire 50 of viewport width whole screen */
     justify-content: center;
+    margin-left: 15%;
    
  }
 
